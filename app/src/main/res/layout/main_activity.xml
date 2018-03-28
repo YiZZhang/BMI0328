@@ -12,25 +12,25 @@
         android:orientation="vertical">
         <EditText
             android:id="@+id/mCM"
-            android:hint="cm"
+            android:hint="@string/cm"
             android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/mKG"
-            android:hint="kg"
+            android:hint="@string/kg"
             android:inputType="number"
             android:layout_below="@+id/mCM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/mButton"
-            android:text="Calculate"
+            android:text="@string/calculate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/mHelp"
-            android:text="HELP"
+            android:text="@string/help"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
