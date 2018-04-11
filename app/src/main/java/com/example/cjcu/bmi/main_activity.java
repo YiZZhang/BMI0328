@@ -1,6 +1,7 @@
 package com.example.cjcu.bmi;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AlertDialog;
@@ -52,6 +53,9 @@ public class main_activity extends AppCompatActivity implements View.OnClickList
         }
         else if(view.equals(mHelp)){
             new AlertDialog.Builder(this).setMessage("enter your info and press calculate").setTitle("Help").setPositiveButton("OK",null).show();
+
+            Intent intent = new Intent(this,secondActivity.class);
+            startActivity(intent);
         }
 
     }
